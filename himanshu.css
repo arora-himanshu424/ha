@@ -1,0 +1,79 @@
+:root {
+
+  /* Application-wide background, app-wide text color, app-wide font, app-wide text transform */
+  --ts-var-root-background: #1A1A1A; /* Dark background */
+  --ts-var-root-color: #E0E0E0; /* Light text */
+  --ts-var-root-font-family: 'Arial', sans-serif;
+  --ts-var-root-text-transform: initial;
+  --ts-var-root-secondary-color: #B0B0B0; /* Softer light for secondary */
+  --ts-var-application-color: #3399FF; /* Bright blue accents */
+
+  /* Top navigation panel */
+  --ts-var-nav-color: #B0B0B0; /* Light text */
+  --ts-var-nav-background: #2B2B2B; /* Dark gray */
+  --ts-var-search-data-button-background: #3D3D3D; /* Slightly lighter for contrast */
+  --ts-var-search-data-button-font-color: #E0E0E0;
+  --ts-var-search-data-button-font-family: var(--ts-var-root-font-family);
+
+  /* Search bar, search navigation and auto-suggestion panels */
+  --ts-var-search-bar-text-font-color: #E0E0E0;
+  --ts-var-search-bar-text-font-family: var(--ts-var-root-font-family);
+  --ts-var-search-bar-background: #333333; /* Darker gray */
+  --ts-var-search-auto-complete-background: #2B2B2B; /* Dark background */
+  --ts-var-search-navigation-button-background: #3D3D3D;
+  --ts-var-search-bar-navigation-help-text-background: #3D3D3D;
+  --ts-var-search-bar-auto-complete-hover-background: #4D4D4D; /* Lighter gray for hover */
+  --ts-var-search-auto-complete-font-color: #E0E0E0;
+  --ts-var-search-auto-complete-subtext-font-color: #C0C0C0;
+
+  /* Data and edit panels on Answer page */
+  --ts-var-answer-data-panel-background-color: #2B2B2B;
+  --ts-var-answer-edit-panel-background-color: #1A1A1A; /* Darkest for emphasis */
+
+  /* Buttons */
+  --ts-var-button-border-radius: 5px;
+  --ts-var-button--icon-border-radius: 5px;
+
+  /* Primary buttons */
+  --ts-var-button--primary-color: #E0E0E0;
+  --ts-var-button--primary-background: #3399FF; /* Bright blue */
+  --ts-var-button--primary--hover-background: #1E7AD9; /* Darker blue for hover */
+  --ts-var-button--primary--font-family: var(--ts-var-root-font-family);
+
+  /* Secondary buttons */
+  --ts-var-button--secondary-color: #E0E0E0;
+  --ts-var-button--secondary-background: #4D4D4D; /* Dark gray */
+  --ts-var-button--secondary--hover-background: #3D3D3D; /* Slightly darker for hover */
+
+  /* Tertiary buttons */
+  --ts-var-button--tertiary-color: #E0E0E0;
+  --ts-var-button--tertiary-background: #2B2B2B; /* Dark */
+  --ts-var-button--tertiary--hover-background: #4D4D4D; /* Lighter hover */
+
+  /* Natural Language Search panel */
+  --ts-var-sage-bar-header-background-color: #2B2B2B;
+  --ts-var-source-selector-background-color: #3D3D3D;
+
+  /* Visualizations and answers */
+  --ts-var-viz-title-color: #3399FF;
+  --ts-var-viz-description-color: #FFAA66; /* Warm orange for contrast */
+  --ts-var-viz-background: #1A1A1A; /* Dark */
+  --ts-var-viz-legend-hover-background: #4D4D4D;
+
+  /* Filter chips */
+  --ts-var-chip-background: #3D3D3D; /* Darker gray */
+  --ts-var-chip--hover-background: #5D5D5D; /* Highlighted hover */
+  --ts-var-chip--active-background: #3399FF; /* Bright blue */
+  --ts-var-chip--active-color: #E0E0E0;
+
+  /* Menu components */
+  --ts-var-menu-background: #2B2B2B; /* Dark */
+  --ts-var-menu--hover-background: #4D4D4D; /* Highlighted */
+
+  /* Dialogs and modals */
+  --ts-var-dialog-header-background: #3D3D3D; /* Darker header */
+  --ts-var-dialog-body-color: #E0E0E0;
+  
+  /* Segment control */
+  --ts-var-segment-control-hover-background: #3399FF; /* Accent for hover */
+}
