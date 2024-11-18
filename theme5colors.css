@@ -1,0 +1,100 @@
+:root {
+
+  /* Application-wide background, app-wide text color, app-wide font, app-wide text transform */
+  --ts-var-root-background: #000000; /* Black background */
+  --ts-var-root-color: #FFFFFF; /* White text */
+  --ts-var-root-font-family: 'Arial', sans-serif;
+  --ts-var-root-text-transform: initial;
+  --ts-var-root-secondary-color: #FFFFFF; /* White for secondary text */
+  --ts-var-application-color: #FFFF00; /* Yellow for accent */
+
+  /* Top navigation panel */
+  --ts-var-nav-color: #FFFFFF; /* White text */
+  --ts-var-nav-background: #000000; /* Black background */
+  --ts-var-search-data-button-background: #000000; /* Black */
+  --ts-var-search-data-button-font-color: #FFFFFF;
+  --ts-var-search-data-button-font-family: var(--ts-var-root-font-family);
+
+  /* Search bar, search navigation and auto-suggestion panels */
+  --ts-var-search-bar-text-font-color: #FFFFFF;
+  --ts-var-search-bar-text-font-family: var(--ts-var-root-font-family);
+  --ts-var-search-bar-background: #000000; /* Black background */
+  --ts-var-search-auto-complete-background: #000000; /* Black */
+  --ts-var-search-navigation-button-background: #000000; /* Black */
+  --ts-var-search-bar-navigation-help-text-background: #000000; /* Black */
+  --ts-var-search-bar-auto-complete-hover-background: #FFFF00; /* Yellow for hover */
+  --ts-var-search-auto-complete-font-color: #FFFFFF;
+  --ts-var-search-auto-complete-subtext-font-color: #FFFFFF;
+
+  /* Data and edit panels on Answer page */
+  --ts-var-answer-data-panel-background-color: #000000; /* Black */
+  --ts-var-answer-edit-panel-background-color: #000000; /* Black */
+
+  /* Buttons */
+  --ts-var-button-border-radius: 5px;
+  --ts-var-button--icon-border-radius: 5px;
+
+  /* Primary buttons */
+  --ts-var-button--primary-color: #FFFFFF; /* White text */
+  --ts-var-button--primary-background: #FF0000; /* Red */
+  --ts-var-button--primary--hover-background: #000000; /* Black for hover */
+  --ts-var-button--primary--font-family: var(--ts-var-root-font-family);
+
+  /* Secondary buttons */
+  --ts-var-button--secondary-color: #FFFFFF; /* White text */
+  --ts-var-button--secondary-background: #000000; /* Black */
+  --ts-var-button--secondary--hover-background: #FF0000; /* Red for hover */
+
+  /* Tertiary buttons */
+  --ts-var-button--tertiary-color: #FFFFFF; /* White text */
+  --ts-var-button--tertiary-background: #000000; /* Black */
+  --ts-var-button--tertiary--hover-background: #FF0000; /* Red for hover */
+
+  /* Natural Language Search panel */
+  --ts-var-sage-bar-header-background-color: #000000;
+  --ts-var-source-selector-background-color: #000000;
+
+  /* Visualizations and answers */
+  --ts-var-viz-title-color: #FF0000; /* Red */
+  --ts-var-viz-description-color: #FFFFFF; /* White */
+  --ts-var-viz-background: #000000; /* Black */
+  --ts-var-viz-legend-hover-background: #FF0000; /* Red for hover */
+
+  /* Filter chips */
+  --ts-var-chip-background: #000000; /* Black */
+  --ts-var-chip--hover-background: #FFFF00; /* Yellow for hover */
+  --ts-var-chip--active-background: #00FF00; /* Green */
+  --ts-var-chip--active-color: #FFFFFF; /* White text */
+
+  /* Menu components */
+  --ts-var-menu-background: #000000; /* Black */
+  --ts-var-menu--hover-background: #FFFF00; /* Yellow for hover */
+
+  /* Dialogs and modals */
+  --ts-var-dialog-header-background: #000000; /* Black */
+  --ts-var-dialog-body-color: #FFFFFF; /* White text */
+  
+  /* Segment control */
+  --ts-var-segment-control-hover-background: #FFFF00; /* Yellow for hover */
+
+  /* Checkbox Styling */
+  --ts-var-checkbox-active-color: #00FF00; /* Green for active state */
+  --ts-var-checkbox-background-color: #000000; /* Black background */
+  --ts-var-checkbox-border-color: #FFFFFF; /* White border */
+  --ts-var-checkbox-checked-color: #00FF00; /* Green when checked */
+  --ts-var-checkbox-error-border: #FF0000; /* Red border for error state */
+  --ts-var-checkbox-hover-border: #FF0000; /* Red border on hover */
+
+  /* View Table and Chart Switcher */
+  --ts-var-answer-view-table-chart-switcher-active-background: #FFFF00; /* Yellow when active */
+  --ts-var-answer-view-table-chart-switcher-background: #000000; /* Black background for the switcher */
+
+  /* Menu and List Styling */
+  --ts-var-menu-selected-text-color: #FFFF00; /* Yellow text for selected menu item */
+  --ts-var-list-hover-background: #FFFF00; /* Yellow hover background */
+  --ts-var-list-selected-background: #FF0000; /* Red background when selected */
+
+  /* Buttons and UI Interactions */
+  --ts-var-button--primary-active-background: #FF0000; /* Red for active primary button */
+  --ts-var-button--secondary-active-background: #FF0000; /* Red for active secondary button */
+}
